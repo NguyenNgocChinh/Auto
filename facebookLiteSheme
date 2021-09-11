@@ -1,0 +1,28 @@
+ #Url scheme trên facebook lite.
+https://m.facebook.com/events
+https://m.facebook.com/groups
+https://m.facebook.com/watch
+https://m.facebook.com/coronavirus_info
+https://m.facebook.com/uid/videos/uid
+https://m.facebook.com/places/uid/uid
+https://m.facebook.com/uid/posts/uid
+https://m.facebook.com/uid/photos/uid
+https://m.facebook.com/uid/photos
+https://m.facebook.com/uid/media_set
+https://m.facebook.com/uid/about
+https://m.facebook.com/uid/photos_of
+https://m.facebook.com/uid/photos_albums
+https://m.facebook.com/uid/friends
+https://m.facebook.com/fbrdr/2048/
+https://m.facebook.com/fbrdr/274/
+https://m.facebook.com/profile.php
+https://m.facebook.com/instant-reg
+https://m.facebook.com/permalink.php
+https://m.facebook.com/story.php
+https://m.facebook.com/home.php
+https://m.facebook.com/photo.php
+https://m.facebook.com/groups/uid
+Cú pháp là:
+adb shell am start -a android.intent.action.VIEW -d "https://m.facebook.com/groups/1777766135578951" com.facebook.lite
+
+Nguồn: Cộng đồng Auto C# Việt Nam
